@@ -1,0 +1,50 @@
+ table {
+	 width:500px; 
+	 height:600px;
+	 border:10px solid gray;
+ }
+ .rim {
+	 width:15px;
+ }
+
+.top {
+	width:500px;
+	height:183px;
+}
+.logo img{
+	max-width:484px;
+	max-height:183px;
+}
+.qr img{
+	max-width:200px;
+	max-height:200px;
+}
+.site{
+	width:684px;
+	height:19px;
+	text-align:center;
+	font-family:Arial;
+	font-size:20px;
+}
+.photo img{
+	max-width:250px;
+	max-height:320px;
+}
+.symbol img{
+	max-width:55px;
+	max-height:66px;
+}
+.name {
+	width:177px;
+    height:66px;
+	font-family:Arial;
+	font-size:30px;
+}
+.text {
+	font-family:Arial;
+	font-size:26px;
+}
+th,tr {
+	border:2px solid red;
+	
+}

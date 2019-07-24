@@ -1,0 +1,1164 @@
+<html>
+<head>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+	<script>
+		function change_product_css(){
+			var productCompanies = ["Azati","Wizart","Tispr"];
+			for (var i = 0; i < productCompanies.length; i++){
+				document.getElementById(productCompanies[i]).classList.toggle("js_on_click");
+			};
+		}
+			
+		function change_joint_product_css(){
+			var joint_productCompanies = ["Exposit", "Instinctools", "IntexSoft", "Senla", "Epam", "Exadel", "iTransition", "Specific-Group SW DevDiv"];
+			for (var i = 0; i < joint_productCompanies.length; i++){
+				document.getElementById(joint_productCompanies[i]).classList.toggle("js_on_click");
+			}; 
+		}	
+		function change_outsource_css(){
+			var outsourceCompanies = ["Academ", "Anahoret", "Exposit","Instinctools","IntexSoft","Senla","SoftService","Yellow","ByTechSolution","Cogniteq","Epam","Exadel","Godel Technologies Europe","iTechArt group","iTransition","Specific-Group SW DevDiv"];
+			for (var i = 0; i < outsourceCompanies.length; i++){
+				document.getElementById(outsourceCompanies[i]).classList.toggle("js_on_click");
+			};
+		}
+		function change_tech_platforms_css(){
+			var tech_platformsCompanies = ["Epam"];
+			for (var i = 0; i < tech_platformsCompanies.length; i++){
+				document.getElementById(tech_platformsCompanies[i]).classList.toggle("js_on_click");
+			};
+		}
+	</script>
+	
+</head>
+<body>
+<header>
+		<div class="image_1"><img src="Home page/Grodno Branch.jpg">
+		</div>
+		<div class="image_2"> <img src="Home page/photo_1.jpg">
+		</div>
+		<div class="image_3"> <img src="Home page/photo_2.jpg"> 
+		</div>
+		<div class="image_4"> <img src="Home page/photo_3.jpg"> 
+		</div>
+        <div class="button_rus"> <a href="index_eng.html"><ins>RU/ENG</ins></a>
+		</div>		
+</header>
+<div class="wrapper">
+    <div class="deals">
+        <div id="product" class="deal_type" onclick="change_product_css();">
+            <span class="deal_name">Продукт</span>
+        </div>
+        <div id="joint_product" class="deal_type" onclick="change_joint_product_css();">
+            <span class="deal_name">Сов. продукты</span>
+        </div>
+        <div id="outsource" class="deal_type" onclick="change_outsource_css();">
+            <span class="deal_name">Аутсорс</span>
+        </div>
+		<div id="tech_platforms" class="deal_type" onclick="change_tech_platforms_css();" >
+            <span class="deal_name">Платформы</span>
+        </div>
+		</div>
+	<div class="deals_1">
+        <div id="local_hq" class="it_grodno">
+			<div class="location"> <span class="text_location"> Local HQ</span>  </div>
+			<div class="location_number"> <span class="text_number"> 11</span>  </div>
+			 <div class="companies_grodno"> 
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_1" id="Academ">Academ & K</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_2" id="Anahoret">Anahoret</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_3" id="Azati">Azati</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_4" id="Exposit">Exposit</button> 
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_5" id="Instinctools">Instinctools</button> 
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_6" id="IntexSoft">IntexSoft</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_7" id="Senla">Senla</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_8" id="SoftService">SoftService</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_9" id="Tispr">Tispr</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_10" id="Wizart">Wizart</button>
+			 <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal_11" id="Yellow">Yellow Square</button>
+			 </div>
+        </div>
+		  <div id="minsk_hq" class="it">
+			<div class="location"> <span class="text_location"> Minsk HQ</span>  </div>
+			<div class="location_number"> <span class="text_number"> 8</span>  </div>
+			 <div class="companies_minsk">
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_12" id="ByTechSolution">ByTechSolution</button>
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_13" id="Cogniteq">Cogniteq</button>
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_14" id="Epam">Epam</button> 
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_15" id="Exadel">Exadel</button>
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_16" id="Godel Technologies Europe">Godel Technologies Europe</button>
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_17" id="iTechArt group">iTechArt group</button> 
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_18" id="iTransition">iTransition</button>
+			 <button type="button" class="mybtn_1" data-toggle="modal" data-target="#myModal_19" id="Specific-Group SW DevDiv">Specific-Group SW DevDiv</button>
+			 </div>
+        </div>
+		
+       
+    </div>
+</div>
+
+<!-- ######################### Academ & K MODAL START ######################### -->
+<div id="myModal_1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Academ & K Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/academika.jpg"> </td>
+	<td class="qr"> <img src="images/QR/academika.png"> <a href="https://www.eservice.by">www.eservice.by</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+
+<tr>
+	<td colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Rachek.png"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2011</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Решения 1С </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> </td>
+	<td class="name"> Наталия Рачек </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Беларусь </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 20</p> </td>
+	
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Akadem & K MODAL END ######################### --> 
+
+
+<!-- ######################### Anahoret MODAL START ######################### -->
+<div id="myModal_2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Anahoret Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/anahoret.png"> </td>
+	<td class="qr"> <img src="images/QR/anahoret.png"> <a href="https://www.anahoret.by">www.anahoret.by</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Romaschenko.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2014</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Максим Ромащенко </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 30+</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка Австралия Новая Зеландия </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Anahoret MODAL END ######################### --> 
+
+<!-- ######################### Azati MODAL START ######################### -->
+<div id="myModal_3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Azati Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/azati.png"> </td>
+	<td class="qr"> <img src="images/QR/azati.png"> <a href="https://www.azati.ai">www.azati.ai</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+
+<tr height="15px"> </tr>
+
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Babkin.png"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr >
+	<td  colspan="2" class="name_1"> <p>2018</p> </td>
+</tr height="80px">
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td  class="text"> <p> Продукт </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Андрей Бабкин </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 20</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка Австралия Азия </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Azati MODAL END ######################### -->    
+
+
+<!-- ######################### Exposit MODAL START ######################### -->
+<div id="myModal_4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Exposit Portfolio</h4>
+            </div>
+            <div class="modal-body">
+<table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/exposit.png"> </td>
+	<td class="qr"> <img src="images/QR/exposit.png"> <a href="https://www.exposit.com">www.exposit.com</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+
+<tr height="15px"></tr>
+
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Yavorchuck.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2012</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> <p> Сов. продукты</p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Василий Яворчук </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 100+</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка </td>
+</tr>
+</table>
+
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Exposit MODAL END ######################### -->    
+
+<!-- ######################### Instinctools MODAL START ######################### -->
+<div id="myModal_5" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Instinctools Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+ <table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/instinctools.png"> </td>
+	<td class="qr"> <img src="images/QR/instinctools.png"> <a href="https://www.instinctools.com">www.instinctools.com</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Spas.png"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2000</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> <p> Сов. продукты</p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Алексей Спас </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 230+</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка </td>
+</tr>
+</table>
+
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Instinctools MODAL END ######################### -->   
+
+<!-- ######################### IntexSoft MODAL START ######################### -->
+<div id="myModal_6" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">IntexSoft Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+ <table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/intexsoft.png"> </td>
+	<td class="qr"> <img src="images/QR/intexsoft.png"> <a href="https://www.intexsoft.com">www.intexsoft.com</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+
+<tr height="15px"></tr>
+
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Mjaskovski.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2005</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> <p> Сов. продукты</p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Олег Мясковский </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 180+</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### IntexSoft MODAL END ######################### --> 
+
+<!-- ######################### Senla MODAL START ######################### -->
+<div id="myModal_7" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Senla Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+ <table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/senla.png"> </td>
+	<td class="qr"> <img src="images/QR/senla.png"> <a href="https://www.senlainc.com">www.senlainc.com</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Danilov.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2017</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> <p> Сов. продукты</p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Игорь Данилов </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 150+</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка Израиль </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Senla MODAL END ######################### --> 
+
+<!-- ######################### SoftService MODAL START ######################### -->
+<div id="myModal_8" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">SoftService Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+ <table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/softservice.png"> </td>
+	<td class="qr"> <img src="images/QR/softservice.png"> <a href="https://www.softservice.by">www.softservice.by</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Medvedev.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>1997</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Решения 1С </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Вячеслав Медведев </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 70</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Беларусь </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### SoftService MODAL END ######################### -->   
+
+<!-- ######################### Tispr MODAL START ######################### -->
+<div id="myModal_9" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tispr Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/tispr.png"> </td>
+	<td class="qr"> <img src="images/QR/tispr.png"> <a href="https://www.tispr.com">www.tispr.com</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Kruglikova.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2016</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Продукт </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"></td>
+	<td class="name"> Мария Кругликова </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p> 20</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ######################### Tispr MODAL END ######################### -->   
+
+
+
+
+<!-- ######################### Wizart MODAL START ######################### -->
+<div id="myModal_10" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Wizart Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+ <table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/wizart.png"> </td>
+	<td class="qr"> <img src="images/QR/wizart.png"> <a href="https://www.wizart.tech">www.wizart.tech</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/YavorchukW.png"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2018</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Продукт </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Василий Яворчук </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p>15</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа Сев.Америка </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Wizart MODAL END ######################### -->  
+
+<!-- ######################### Yellow Square MODAL START ######################### -->
+<div id="myModal_11" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Yellow Square Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+ <table>
+<tr class="top">
+	<td class="rim" rowspan="7"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/yellow_sq.png"> </td>
+	<td class="qr"> <img src="images/QR/yellowsquare.png"> <a href="https://www.yellowsquare.dev">www.yellowsquare.dev</a> </td>
+	<td class="rim" rowspan="7"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Krasikov.jpg"> </td>
+	<td rowspan="5" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2018</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Алексей Красиков </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td  class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td  class="name_1"> <p>6</p> </td>
+	<td   class="symbol"> <img src="images/symbol/world.png"></td>
+	<td   class="text"> Зап. Европа </td>
+</tr>
+</table>
+
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Yellow Square MODAL END ######################### --> 
+
+<!-- ######################### ByTechSolution MODAL START ######################### -->
+<div id="myModal_12" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">ByTechSolution Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/bytech.png"> </td>
+	<td class="qr"> <img src="images/QR/bytech.png"> <a href="https://www.bytechs.by">www.bytechs.by</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Plusnin.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>1994</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Сов. апп. продукты </p> <p> Pешения 1С </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> </td>
+	<td class="name"> Сергей Плюснин </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Беларусь </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 30</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### ByTechSolution MODAL END ######################### -->   
+
+<!-- #########################Cogniteq MODAL START ######################### -->
+<div id="myModal_13" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cogniteq Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/cogniteq.png"> </td>
+	<td class="qr"> <img src="images/QR/cogniteq.png"> <a href="https://www.cogniteq.com>www.cogniteq.com"</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Kot.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2012</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс </p> </td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"></td>
+	<td class="name"> Никита Кот </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Сев. Америка </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 30+</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Cogniteq MODAL END ######################### -->   
+
+
+
+
+<!-- ######################### Epam MODAL START ######################### -->
+<div id="myModal_14" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Epam Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/EPAM.png"> </td>
+	<td class="qr"> <img src="images/QR/epam.png"> <a href="https://www.epam.com/">www.epam.com</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Golunko.png"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>1993</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Платформы </p> <p> Аутсорс</p> <p>Совместные продукты</p></td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol"> <img src="images/symbol/ceo.jpg"> </td>
+	<td class="name"> Константин Голунков </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Глобальный рынок </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> +400</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Epam MODAL END ######################### --> 
+
+<!-- ######################### Exadel MODAL START ######################### -->
+<div id="myModal_15" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Exadel Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/exadel.png"> </td>
+	<td class="qr"> <img src="images/QR/exadel.png"> <a href="https://www.exadel.com">www.exadel.com</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Logina.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>1998</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Сов. продукты </p> <p> Аутсорс</p></td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol">  </td>
+	<td class="name"> Алла Логина </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Сев. Америка Зап. Европа Израиль</td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 40</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ######################### Exadel MODAL END ######################### --> 
+
+<!-- ######################### Godel Technologies Europe MODAL START ######################### -->
+
+<div id="myModal_16" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Godel Technologies Europe Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/godel.png"> </td>
+	<td class="qr"> <img src="images/QR/godel.png"> <a href="https://www.godeltech.com">www.godeltech.com</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Shutovich.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2002</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text">  <p> Аутсорс</p></td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol">  </td>
+	<td class="name"> Ольга Шутович </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Сев. Америка Зап. Европа </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 50</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ######################### Godel Technologies Europe MODAL END ######################### -->   
+
+
+<!-- ######################### iTechArt Group MODAL START ######################### -->
+
+<div id="myModal_17" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> iTechArt Group Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/itechart.png"> </td>
+	<td class="qr"> <img src="images/QR/itechart.png"> <a href="https://www.itechart.com">www.itechart.com</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Levonec.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2002</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text">  <p> Аутсорс</p></td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol">  </td>
+	<td class="name"> Павел Левонец </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Сев. Америка Зап. Европа Австралия </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 40</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ######################### iTechArt Group GROUP MODAL END ######################### -->  
+
+<!-- ######################### Itransition MODAL START ######################### -->
+
+<div id="myModal_18" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> Itransition Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/itransition.png"> </td>
+	<td class="qr"> <img src="images/QR/itransition.png"> <a href="https://www.itransition.com">www.itransition.com</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Gomanchuck.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>1998</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text"> <p> Аутсорс</p> <p> Сов. продукты</p></td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol">  </td>
+	<td class="name">Сергей Гоманчук </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Филиал г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Сев. Америка Зап. Европа</td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 100+</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ######################### Itransition MODAL END ######################### -->  
+
+<!-- ######################### Specific-Group SW DevDiv MODAL START ######################### -->
+
+<div id="myModal_19" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> Specific-Group SW DevDiv Portfolio</h4>
+            </div>
+            <div class="modal-body">
+
+<table>
+<tr class="top">
+	<td class="rim" rowspan="8"> </td>
+	<td colspan="4"  class="logo"> <img src="images/Logo/specificgroup.png"> </td>
+	<td class="qr"> <img src="images/QR/specific.png"> <a href="https://www.specific-group.com">www.specific-group.com</a> </td>
+	<td class="rim" rowspan="8"> </td>
+</tr>
+<tr height="15px"></tr>
+<tr>
+	<td  colspan="2" rowspan="3" class="photo"> <img src="images/CEO/Audzeichyck.jpg"> </td>
+	<td rowspan="6" class="rim_1"> </td>
+	<td colspan="2"class="name"> <p> Год основания</p></td>
+</tr>
+<tr>
+	<td colspan="2" class="name_1"> <p>2006</p> </td>
+</tr>
+<tr height="80px">
+	<td class="symbol"> <img src="images/symbol/technology.jpg"></td>
+	<td class="text">  <p> Аутсорс</p> <p> Сов. продукты</p></td>
+</tr>
+<tr>
+	<td width="55" height="66" class="symbol">  </td>
+	<td class="name"> Ольга Авдейчик </td>
+	<td colspan="2"> </td>
+</tr>
+<tr>
+	<td colspan="2" class="name"> Офис г. Гродно </td>
+	<td rowspan="2" class="symbol"> <img src="images/symbol/world.png"></td>
+	<td  rowspan="2" class="text"> Сев. Америка Зап. Европа Австралия </td>
+</tr>
+<tr>
+	<td class="symbol"> <img src="images/symbol/staff.jpg"></td>
+	<td class="name_1"> <p> 40+</p> </td>
+	
+</tr>
+</table>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="mybtn mybtn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ######################### Specific-Group SW DevDiv MODAL MODAL END ######################### --> 
+ 
+</body> 
+</html>
