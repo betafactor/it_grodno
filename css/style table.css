@@ -1,0 +1,48 @@
+
+.portfolio_table {
+    width:684;
+    height:900;
+    border:10px solid gray;
+    margin: 0 auto;
+}
+
+.top {
+	width:684px;
+	height:150px;
+}
+.logo img{
+	max-width:300px;
+	max-height:120px;
+}
+.qr img{
+	max-width:104px;
+	max-height:104px;
+}
+.site{
+	width:684px;
+	height:19px;
+	text-align:center;
+	font-family:Arial;
+	font-size:15px;
+}
+.photo img{
+	max-width:250px;
+	max-height:320px;
+}
+.symbol img{
+	max-width:55px;
+	max-height:66px;
+}
+.name {
+	width:177px;
+    height:66px;
+	font-family:Arial;
+	font-size:30px;
+}
+.text {
+	font-family:Arial;
+	font-size:26px;
+}
+th {
+	border:1px white;	
+} */

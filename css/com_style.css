@@ -1,0 +1,56 @@
+/* ############## EPAM MODAL ################ */
+
+ table {
+	 width:500px; 
+	 height:600px;
+	 border:4px solid gray;
+ }
+ .rim {
+	 width:30px;
+ }
+  .rim_1{
+	 width:15px;
+ }
+
+.top {
+	width:484px;
+	height:124px;
+	text-align:center;
+}
+.logo img{
+	position: relative;
+	max-width:300x;
+	max-height:122px;
+	
+}
+.qr img{
+	position:relative;
+	left:2 px;
+	max-width:102px;
+	max-height:102px;
+
+}
+.photo img{
+	width:230px;
+	height:230px;
+}
+.symbol img{
+	max-width:55px;
+	max-height:66px;
+}
+.name {
+	width:177px;
+    height:66px;
+	font-family:Arial;
+	font-size:20px;
+	text-align:center;
+}
+.text {
+	font-family:Arial;
+	font-size:20px;
+	text-align:left;
+}
+th,tr {
+	border:2px solid white;
+
+	
